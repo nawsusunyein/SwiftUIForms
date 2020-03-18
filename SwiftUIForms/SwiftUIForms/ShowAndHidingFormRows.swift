@@ -16,7 +16,7 @@ struct ShowAndHidingFormRows: View {
     var body: some View {
         Form{
             Section{
-                Toggle(isOn: $enableToggling){
+                Toggle(isOn: $enableToggling.animation()){
                     Text("Enable sound")
                 }
                 
