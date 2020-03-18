@@ -17,6 +17,7 @@
 		23E5C3BA2420DB8B00253A50 /* SwiftUIFormsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3B92420DB8B00253A50 /* SwiftUIFormsUITests.swift */; };
 		23E5C3C82420DDAF00253A50 /* BasicForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3C72420DDAF00253A50 /* BasicForm.swift */; };
 		23E5C3CA2420E44600253A50 /* SectionInForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3C92420E44600253A50 /* SectionInForms.swift */; };
+		23EB20212421BCCD006288C0 /* PickersInFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20202421BCCD006288C0 /* PickersInFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		23E5C3BB2420DB8B00253A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E5C3C72420DDAF00253A50 /* BasicForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicForm.swift; sourceTree = "<group>"; };
 		23E5C3C92420E44600253A50 /* SectionInForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInForms.swift; sourceTree = "<group>"; };
+		23EB20202421BCCD006288C0 /* PickersInFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersInFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				23E5C39F2420DB8B00253A50 /* Preview Content */,
 				23E5C3C72420DDAF00253A50 /* BasicForm.swift */,
 				23E5C3C92420E44600253A50 /* SectionInForms.swift */,
+				23EB20202421BCCD006288C0 /* PickersInFormView.swift */,
 			);
 			path = SwiftUIForms;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E5C3C82420DDAF00253A50 /* BasicForm.swift in Sources */,
+				23EB20212421BCCD006288C0 /* PickersInFormView.swift in Sources */,
 				23E5C3982420DB8000253A50 /* AppDelegate.swift in Sources */,
 				23E5C39A2420DB8000253A50 /* SceneDelegate.swift in Sources */,
 				23E5C39C2420DB8000253A50 /* ContentView.swift in Sources */,

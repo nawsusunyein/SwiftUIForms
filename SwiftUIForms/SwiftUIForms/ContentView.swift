@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Basic Form","Section in Forms"]
+    let componentsList = ["Basic Form","Section in Forms","Pickers in Forms"]
     var body: some View {
         NavigationView{
             List{
@@ -22,6 +22,13 @@ struct ContentView: View {
                 }
                 NavigationLink(destination:SectionInForms()){
                     Text(componentsList[1])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:PickersInFormView()){
+                    Text(componentsList[2])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
