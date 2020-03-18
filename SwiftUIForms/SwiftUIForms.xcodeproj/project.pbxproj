@@ -19,6 +19,7 @@
 		23E5C3CA2420E44600253A50 /* SectionInForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3C92420E44600253A50 /* SectionInForms.swift */; };
 		23EB20212421BCCD006288C0 /* PickersInFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20202421BCCD006288C0 /* PickersInFormView.swift */; };
 		23EB20232421BF3C006288C0 /* EnablingAndDisablingInFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20222421BF3C006288C0 /* EnablingAndDisablingInFormView.swift */; };
+		23EB20252421C40F006288C0 /* ShowAndHidingFormRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20242421C40F006288C0 /* ShowAndHidingFormRows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		23E5C3C92420E44600253A50 /* SectionInForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInForms.swift; sourceTree = "<group>"; };
 		23EB20202421BCCD006288C0 /* PickersInFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersInFormView.swift; sourceTree = "<group>"; };
 		23EB20222421BF3C006288C0 /* EnablingAndDisablingInFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnablingAndDisablingInFormView.swift; sourceTree = "<group>"; };
+		23EB20242421C40F006288C0 /* ShowAndHidingFormRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAndHidingFormRows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				23E5C3C92420E44600253A50 /* SectionInForms.swift */,
 				23EB20202421BCCD006288C0 /* PickersInFormView.swift */,
 				23EB20222421BF3C006288C0 /* EnablingAndDisablingInFormView.swift */,
+				23EB20242421C40F006288C0 /* ShowAndHidingFormRows.swift */,
 			);
 			path = SwiftUIForms;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				23EB20212421BCCD006288C0 /* PickersInFormView.swift in Sources */,
 				23E5C3982420DB8000253A50 /* AppDelegate.swift in Sources */,
 				23E5C39A2420DB8000253A50 /* SceneDelegate.swift in Sources */,
+				23EB20252421C40F006288C0 /* ShowAndHidingFormRows.swift in Sources */,
 				23EB20232421BF3C006288C0 /* EnablingAndDisablingInFormView.swift in Sources */,
 				23E5C39C2420DB8000253A50 /* ContentView.swift in Sources */,
 				23E5C3CA2420E44600253A50 /* SectionInForms.swift in Sources */,

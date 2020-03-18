@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Basic Form","Section in Forms","Pickers in Forms","Enabling and Disabling Elements in Form"]
+    let componentsList = ["Basic Form","Section in Forms","Pickers in Forms","Enabling and Disabling Elements in Form","Show and Hiding Form Rows"]
     var body: some View {
         NavigationView{
             List{
@@ -36,6 +36,13 @@ struct ContentView: View {
                 }
                 NavigationLink(destination:EnablingAndDisablingInFormView()){
                     Text(componentsList[3])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:ShowAndHidingFormRows()){
+                    Text(componentsList[4])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
